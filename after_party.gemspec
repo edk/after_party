@@ -1,7 +1,7 @@
 Gem::Specification.new do |gem|
   gem.name = 'after_party'
   gem.version = '1.10.0'
-  gem.date = Date.today.to_s
+  gem.date = ::Time.now.strftime('%Y-%m-%d')
 
   gem.authors = "Steve Mitchell"
   gem.description = "Automated post-deploy tasks for Ruby/Rails. Your deployment is the party. This is the after party"
